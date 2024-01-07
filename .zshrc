@@ -31,6 +31,14 @@ alias p='pwd'
 alias s='sudo'
 alias n='nano'
 
+# docker compose
+alias dc='docker compose'
+alias dcu='docker compose up'
+alias dcup='docker compose up -d'
+alias dcd='docker compose down'
+alias dcdv='docker compose down --volumes'
+alias dcl='docker compose logs --follow'
+
 # exa aliases
 alias ls='exa -aF --icons'
 alias ll='exa -laF --icons'
