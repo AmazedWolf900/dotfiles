@@ -25,6 +25,9 @@ else
 fi
 
 # aliases
+# update this file
+alias zshup='wget -O $HOME/.zshrc https://raw.githubusercontent.com/AmazedWolf900/dotfiles/main/.zshrc'
+
 # general aliases
 alias c='clear'
 alias p='pwd'
