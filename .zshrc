@@ -36,8 +36,8 @@ alias s='sudo'
 alias n='nano'
 
 # Linux specific
-if [ $(uname) = 'Linux' ]; then                                                                                                                                                                                                                                      [12:16:56]
-        # systemctl systemd
+if [ "$(uname -s)" = "Linux" ]; then
+	# systemctl systemd
 	alias sctl='sudo systemctl status'
 	alias sctls='sudo systemctl start'
 	alias sctlr='sudo systemctl restart'
