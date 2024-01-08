@@ -35,11 +35,14 @@ alias p='pwd'
 alias s='sudo'
 alias n='nano'
 
-# systemctl systemd
-alias sctl='sudo systemctl status'
-alias sctls='sudo systemctl start'
-alias sctlr='sudo systemctl restart'
-alias sctld='sudo systemctl stop'
+# Linux specific
+if [ $(uname) = 'Linux' ]; then                                                                                                                                                                                                                                      [12:16:56]
+        # systemctl systemd
+	alias sctl='sudo systemctl status'
+	alias sctls='sudo systemctl start'
+	alias sctlr='sudo systemctl restart'
+	alias sctld='sudo systemctl stop'
+fi
 
 # docker & compose
 alias dl='docker ps'
