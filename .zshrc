@@ -34,6 +34,7 @@ alias c='clear'
 alias p='pwd'
 alias s='sudo'
 alias n='nano'
+alias v="vim"
 
 # Linux specific
 if [ "$(uname -s)" = "Linux" ]; then
