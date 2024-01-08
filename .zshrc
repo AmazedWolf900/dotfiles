@@ -13,6 +13,7 @@ ZSH_THEME="duellj"
 plugins=(
 	git
 	zsh-autosuggestions
+	web-search
 )
 
 source $ZSH/oh-my-zsh.sh
