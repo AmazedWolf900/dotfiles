@@ -35,7 +35,8 @@ alias p='pwd'
 alias s='sudo'
 alias n='nano'
 
-# docker compose
+# docker & compose
+alias dl='docker ps'
 alias dc='docker compose'
 alias dcu='docker compose up'
 alias dcup='docker compose up -d'
