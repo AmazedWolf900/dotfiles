@@ -50,6 +50,7 @@ alias dcu='docker compose up'
 alias dcup='docker compose up -d'
 alias dcd='docker compose down'
 alias dcdv='docker compose down --volumes'
+alias dcp='docker compose pull'
 alias dcl='docker compose logs --follow'
 
 # exa aliases
