@@ -35,6 +35,12 @@ alias p='pwd'
 alias s='sudo'
 alias n='nano'
 
+# systemctl systemd
+alias sctl='sudo systemctl status'
+alias sctls='sudo systemctl start'
+alias sctlr='sudo systemctl restart'
+alias sctld='sudo systemctl stop'
+
 # docker & compose
 alias dl='docker ps'
 alias dc='docker compose'
