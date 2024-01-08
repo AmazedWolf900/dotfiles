@@ -67,4 +67,5 @@ mkcd() {
 alias rmd='rm -r'
 
 # external services
-alias myip='curl icanhazip.com'
+alias myip='curl https://api.ipify.org'
+alias myip6='curl https://api64.ipify.org'
