@@ -64,7 +64,7 @@ mkcd() {
 	mkdir -p "$dir" && cd "$dir";
 }
 # delete directory
-alias rmd='rm -r'
+alias rmd='rm -rf'
 
 # external services
 alias myip='curl https://api.ipify.org'
