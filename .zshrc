@@ -44,6 +44,11 @@ if [ "$(uname -s)" = "Linux" ]; then
 	alias sctld='sudo systemctl stop'
 fi
 
+# MacOS specific
+if [ "$(uname -s)" = "Darwin" ]; then
+	alias ssh='kitten ssh'
+fi
+
 # docker & compose
 alias dl='docker ps'
 alias dc='docker compose'
