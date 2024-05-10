@@ -33,7 +33,7 @@ alias p='pwd'
 alias s='sudo'
 alias n='nano'
 alias v="vim"
-alias apt="s nala"
+alias apt="sudo nala"
 
 # Linux specific
 if [ "$(uname -s)" = "Linux" ]; then
