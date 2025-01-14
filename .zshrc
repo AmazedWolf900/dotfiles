@@ -59,8 +59,8 @@ alias dcp='docker compose pull'
 alias dcl='docker compose logs --follow'
 
 # exa aliases
-alias ls='eza -aF --icons'
-alias ll='eza -laF --icons'
+alias ls='exa -aF --icons'
+alias ll='exa -laF --icons'
 
 # directories
 # make dir and cd into it
